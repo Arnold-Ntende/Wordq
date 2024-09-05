@@ -23,7 +23,7 @@ let questions = [
     choice1: "2016",
     choice2: "2019",
     choice3: "2017",
-    choice4: "<2018",
+    choice4: "2018",
     answer: 3
   },
   {
