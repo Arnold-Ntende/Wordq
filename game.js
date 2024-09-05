@@ -11,35 +11,52 @@ let availableQuesions = [];
 
 let questions = [
   {
-    question: "Inside which HTML element do we put the JavaScript??",
-    choice1: "<script>",
-    choice2: "<javascript>",
-    choice3: "<js>",
-    choice4: "<scripting>",
-    answer: 1
-  },
-  {
-    question:
-      "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    choice1: "<script href='xxx.js'>",
-    choice2: "<script name='xxx.js'>",
-    choice3: "<script src='xxx.js'>",
-    choice4: "<script file='xxx.js'>",
+    question: "What does the acronym “WP” stand for from what you have learn't?",
+    choice1: "Web Program",
+    choice2: "Web Post",
+    choice3: "WordPress",
+    choice4: "Website Platform",
     answer: 3
   },
   {
-    question: " How do you write 'Hello World' in an alert box?",
-    choice1: "msgBox('Hello World');",
-    choice2: "alertBox('Hello World');",
-    choice3: "msg('Hello World');",
-    choice4: "alert('Hello World');",
-    answer: 4
+    question: "In which year was the first word camp in Uganda?",
+    choice1: "2016",
+    choice2: "2019",
+    choice3: "2017",
+    choice4: "<2018",
+    answer: 3
+  },
+  {
+    question:
+      "Which programming language is WordPress primarily written in?",
+    choice1: "Python",
+    choice2: "Ruby",
+    choice3: "PHP",
+    choice4: "Javascript",
+    answer: 3
+  },
+  {
+    question: "Which of the following is a popular WordPress page builder plugin?",
+    choice1: "Elementor",
+    choice2: "WooCommerce",
+    choice3: "Yoast SEO",
+    choice4: "WPForms",
+    answer: 1
+  },
+  {
+    question: "Which file is responsible for the WordPress configuration settings?",
+    choice1: "wp-config.php",
+    choice2: "functions.php",
+    choice3: "index.php",
+    choice4: "style.css",
+    answer: 1
   }
+  
 ];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 
 startGame = () => {
   questionCounter = 0;
